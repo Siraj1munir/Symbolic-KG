@@ -1,5 +1,6 @@
+# This repository contains the code base for the paper presented at SmartNets'23
 # Towards symbolic representation-based modeling of Temporal Knowledge Graphs
-This repository contains the code base for the paper presented at SmartNets'23
+
 Symbolic representation helps us to represent information in a well-defined rule-driven fashion. Currently, there are several ways to represent Knowledge Graphs in general. However, in this work, we extended the implementation of symbolic representation to model domain-oriented temporal Knowledge Graphs. For symbolic representation, we incorporated Horn rules and SWRL (Semantic Web Rule Language). The presented approach is semi-autonomous: (i) we extracted hand-crafted rules and (ii) we utilized the PSyKE (Platform for Symbolic Knowledge Extraction) package to extract some rules automatically from raw data logs. For domain modeling, we targeted a smart industry environment. To validate the proposed model, we conducted a counterfactual study using Knowledge Graph and network analysis for fact-finding and filtering.
 
 \usepackage[vmargin=1in,hmargin=1in]{geometry}
